@@ -74,6 +74,7 @@ class BigCard extends StatelessWidget {
 
     return Card(
       color: theme.colorScheme.primary,
+      elevation: 8,
       child: Padding(
         padding: const EdgeInsets.all(20),
         child: Text(pair.asLowerCase, style: style),
